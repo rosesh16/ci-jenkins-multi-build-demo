@@ -3,7 +3,7 @@ package com.vit.demo;
 public class AppTest {
     public static void main(String[] args) {
         int result = App.add(2, 3);
-        int expected = 6;
+        int expected = 5;
 
         if (result != expected) {
             System.err.println("Test failed: expected " + expected + " but received " + result);
